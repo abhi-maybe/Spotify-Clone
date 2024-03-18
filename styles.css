@@ -36,6 +36,13 @@ body {
     padding: 0;
 }
 
+.sidebar-link {
+    display: flex;
+}
+
+    .sidebar-link-right {  /* Right side icons */
+    align-items: right;
+    }
 .sidebar a {  /* Navigation links */
     display: block; /* Makes links take full width */
     text-decoration: none;
@@ -65,3 +72,73 @@ body {
     align-items: center;
     padding: 0 20px;
 }
+
+.horizontal-container-1 {
+    display: flex;
+  }
+  
+  .item-1 {
+    flex: 1;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+  }
+
+  .item-2 {
+    flex: 1;
+    padding: 10px;
+    margin: 5px;
+    align-items: end;
+    text-align: end;
+  }
+
+.horizontal-container-2 {
+    display: flex;
+  }
+  
+  .item-button {
+    flex: 1;
+    border-radius: 10px;
+    border-color: #282828;
+    background-color: #282828;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .sidebar-nav-playlist {}
+
+    .item-1 {
+        background-color: #181818;
+        border-color: #181818;
+        text-align: start;
+    }
+
+    .item-2 {
+        text-align: end;
+    }
+
+    .item {
+        display: flex;
+        color: white;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 5px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .item:hover {
+        background-color: #282828;
+        transition: 0.4s;
+    }
+
+    .playlist-name{
+        margin-left: 10px;
+    }
+
+    .album-cover {
+        border-radius: 10px;
+    }
