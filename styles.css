@@ -12,9 +12,9 @@ body {
 
 /* Sidebar styles */
 .sidebar {
-    width: 250px;
+    width: 450px;
     background-color: #000000;
-    color: #fff; /* White text color */
+    color: rgb(140, 140, 140); /* White text color */
 }
 
 .sidebar1, .sidebar2 {
@@ -32,26 +32,26 @@ body {
 }
 
 .sidebar li {  /* Individual list items */
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin: 0;
+    padding: 0;
 }
 
 .sidebar a {  /* Navigation links */
     display: block; /* Makes links take full width */
     text-decoration: none;
     color: inherit; /* Inherits white text color */
-    padding: 15px 15px;
+    padding: 10px 20px;
     transition: 0.2s ease-in-out background-color;
     border-radius: 10px;
 }
 
 .sidebar a:hover { /* Link hover effect */
-    background-color: #282828;  /* Darker background on hover */
+    color: #fff;
+    transition: 0.4s;
 }
 
 .sidebar .sidebar-item.active .sidebar-link { /* Style for active item */
-    background-color: #282828;  /*  Same dark background as hover */
-}
+    color: #fff;}
 
 .main-content {
     flex: 1; /* Takes up remaining space */
