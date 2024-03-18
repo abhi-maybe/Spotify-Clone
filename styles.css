@@ -1,12 +1,12 @@
 body {
     margin: 0;
     font-family: 'Arial', sans-serif; 
-    background-color: #181818; /* Spotify's dark background */
+    background-color: #181818;
     color: white;
 }
 
 .app-container {
-    display: flex; /* Main layout in a row */
+    display: flex;
     height: 100vh;
 }
 
@@ -14,7 +14,7 @@ body {
 .sidebar {
     width: 450px;
     background-color: #000000;
-    color: rgb(140, 140, 140); /* White text color */
+    color: rgb(140, 140, 140);
 }
 
 .sidebar1, .sidebar2 {
@@ -25,13 +25,13 @@ body {
     border-radius: 10px;
 }
 
-.sidebar ul {  /* Overall sidebar list */
+.sidebar ul {
     padding: 0;
     margin: 0;
     list-style: none;
 }
 
-.sidebar li {  /* Individual list items */
+.sidebar li {
     margin: 0;
     padding: 0;
 }
@@ -40,35 +40,35 @@ body {
     display: flex;
 }
 
-    .sidebar-link-right {  /* Right side icons */
+    .sidebar-link-right {
     align-items: right;
     }
-.sidebar a {  /* Navigation links */
-    display: block; /* Makes links take full width */
+.sidebar a {
+    display: block;
     text-decoration: none;
-    color: inherit; /* Inherits white text color */
+    color: inherit;
     padding: 10px 20px;
     transition: 0.2s ease-in-out background-color;
     border-radius: 10px;
 }
 
-.sidebar a:hover { /* Link hover effect */
+.sidebar a:hover {
     color: #fff;
     transition: 0.4s;
 }
 
-.sidebar .sidebar-item.active .sidebar-link { /* Style for active item */
+.sidebar .sidebar-item.active .sidebar-link {
     color: #fff;}
 
 .main-content {
-    flex: 1; /* Takes up remaining space */
+    flex: 1;
     padding: 20px;
 }
 
 .app-header {
     background-color: #282828;
     height: 60px;
-    display: flex; /* For player controls */
+    display: flex;
     align-items: center;
     padding: 0 20px;
 }
