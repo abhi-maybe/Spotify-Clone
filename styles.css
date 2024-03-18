@@ -13,8 +13,17 @@ body {
 /* Sidebar styles */
 .sidebar {
     width: 250px;
-    background-color: #0f0f0f;
+    background-color: #000000;
     color: #fff; /* White text color */
+}
+
+.sidebar1, .sidebar2 {
+    padding: auto;
+    align-items: center;
+    
+    background-color: #181818;
+    border: #000000;
+    border-radius: 10px;
 }
 
 .sidebar ul {  /* Overall sidebar list */
