@@ -18,9 +18,8 @@ body {
 }
 
 .sidebar1, .sidebar2 {
-    padding: auto;
-    align-items: center;
-    
+    padding: 10px;
+    margin: 10px;
     background-color: #181818;
     border: #000000;
     border-radius: 10px;
@@ -33,15 +32,17 @@ body {
 }
 
 .sidebar li {  /* Individual list items */
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .sidebar a {  /* Navigation links */
     display: block; /* Makes links take full width */
     text-decoration: none;
     color: inherit; /* Inherits white text color */
-    padding: 10px 15px;
+    padding: 15px 15px;
     transition: 0.2s ease-in-out background-color;
+    border-radius: 10px;
 }
 
 .sidebar a:hover { /* Link hover effect */
